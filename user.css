@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(239, 243, 243);
+}
+
+.user {
+    margin: 50px auto;
+    background-color: rgb(163, 13, 13);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.user img{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0px 20px;
+    
+}
